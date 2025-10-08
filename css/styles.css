@@ -1,0 +1,145 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 190, 32);
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+}
+
+#barraBusqueda {
+    width: 300px; 
+    height: 30px;
+    margin: 15px;
+    padding: 5px;
+    font-size: 15px;   
+}
+
+#saludoCliente {
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contadorCarrito {
+    margin-left: auto;
+    color: white;
+    font-weight: bold;
+}
+
+header h2 {
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#ordenarNombre, #ordenarPrecio{
+    margin: 10px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(51, 190, 32);
+    border-radius: 5px;
+}
+    
+
+
+.card-producto img{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.card-producto{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    box-shadow: rgba(18, 19, 18, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-producto button{
+    background-color: rgb(51, 190, 32);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#contenedorFrutas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#contenedorCarrito {
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#contenedorCarrito li {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.boton-eliminar {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#carrito-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+#carrito-footer button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#carrito-footer p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
